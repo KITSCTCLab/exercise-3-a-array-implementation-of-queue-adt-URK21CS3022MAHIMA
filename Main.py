@@ -18,9 +18,6 @@ class Solution:
 
       """
 
-
-    # Write your code here
-
     def __init__(self, size):
 
         
@@ -205,24 +202,11 @@ class Solution:
 
             return x
 
-
-
-# read the string text
-
 text = input()
-
-
-# find the length of text
 
 length_of_text = len(text)
 
-
-# Create the Solution class object
-
 solution = Solution(length_of_text)
-
-
-# push/enqueue all the characters of string text to stack
 
 for index in range(length_of_text):
 
